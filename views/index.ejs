@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='http://www.appinessworld.com/css/master.css'/>
+    <link rel='stylesheet' href='http://www.appinessworld.com/fonts/bellmt/stylesheet.css'/>
+</head>
+<style>
+    .hold {
+        border: 1px solid #ccc;
+        padding: 20px 15px;
+        width: 25%;
+        border-radius: 3px;
+        background-color: #ececec!important;
+    }
+
+    h1 {
+        margin: 0 0 15px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    h3 {
+        width: 97%;
+        white-space: nowrap;
+        margin: 0 0 15px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    a {
+        display: inline-block;
+        font-size: 14px;
+        padding: 10px 15px;
+        background-color: #00B7FF;
+        color: #fff;
+        text-decoration: none;
+    }
+    body{
+        background-color: white!important;
+    }
+</style>
+<body>
+<div class="hold">
+    <h1>Appiness Blog</h1>
+    <h1> <%=user %></h1>
+    <h3><%= head %></h3>
+    <a href="/blog">View more</a>
+</div>
+</body>
+</html>
