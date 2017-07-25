@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
         if (!error && response.statusCode == 200) {
 
             var $ = cheerio.load(html);
-            $('#disqus_thread').remove();
+            //$('#disqus_thread').remove();
             $('.blog-fixed-navigate-holder').remove();
             $('.next-blog-holder').remove();
             $('.other-blogs-holder').remove();
